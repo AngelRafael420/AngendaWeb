@@ -1,0 +1,69 @@
+*,::after,*::before{
+    margin: 3;
+    padding: 3;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Anek Latin', sans-serif;
+    font-size: 75.5%;
+}
+body{
+    background-color: rgba(0,0,0,.7);
+    color: rgb(247, 240, 233);
+}
+.container{
+    height: 0,8vh;
+    width: 70vw;
+    margin: 2rem auto;
+}
+.container h2{
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.3rem;
+}
+.datos{
+    display: block;
+    width: 60%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+}
+.datos input{
+    margin: 1rem 0rem;
+    line-height: 3rem;
+    background: none;
+    outline: 0;
+    border: 0;
+    color: antiquewhite;
+}
+.datos input:active{
+    border-bottom: 1.3px solid rgb(21, 219, 226);
+}
+.datos input:focus{
+    border-bottom: 1.3px solid rgb(21, 219, 226);
+}
+.datos input button{
+    margin: 1rem 0rem;
+    background-color: rgb(0, 38, 255);
+    border: 0;
+    outline: 0;
+    height: 3rem;
+    border-radius: 7px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+.contactos{
+    display: flex;
+    flex-direction:column ;
+}
+.contactos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 3rem;
+}
+.material-symbols-outlined{
+    color: red;
+    cursor: pointer;
+}
